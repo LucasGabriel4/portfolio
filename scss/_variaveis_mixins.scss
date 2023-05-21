@@ -1,0 +1,54 @@
+
+// Variaveis do grid
+$l-device: 1200px;
+$m-device: 760px;
+$s-device: 480px;
+$purple: #8257E6;
+$dark: #110F17;
+$white: white;
+$projetos: projeto01 projeto02 projeto03 projeto04 projeto05 projeto06;
+$modal: #13131F;
+
+
+// Mixin de media-queries
+@mixin mediaQuery($size) {
+  
+    @if $size == m {
+      @media screen and (min-width: #{$m-device}) and (max-width: #{$l-device - 220}) {
+        @content;
+      }
+    } @else if $size == s {
+      @media screen and (max-width: #{$m-device - 1}) {
+        @content;
+      }
+    }
+  }
+
+  @mixin fontPoppins{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+
+  
+  }
+
+
+  @each $projeto in $projetos{
+    .#{$projeto}{
+      background-image: url('../assets/#{$projeto}.png');
+      background-size: cover;
+      background-position: center;
+
+     
+    }
+
+  }
+
+

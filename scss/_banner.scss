@@ -1,0 +1,134 @@
+section.banner{
+    padding: 60px 0;
+    background-color: $dark;
+    @include fontPoppins;
+
+    .container{
+        max-width: 960px;
+        justify-content: space-between;
+        align-items: center;
+        margin: 80px auto;
+        @include mediaQuery(s){
+           flex-direction: column-reverse;
+           max-width: $s-device;
+           
+        }
+
+        @include mediaQuery(m){
+            max-width: $m-device;
+        }
+       
+       
+    }
+
+    .banner__content{
+        @include mediaQuery(s){
+            margin-top: 50px;
+        }
+    }
+
+
+    .banner__content h1{
+       color: $white;
+       font-weight: 500;
+       font-size: 1.7rem;
+       @include mediaQuery(s){
+          text-align: center;
+       }
+    }
+
+    .banner__content span{
+        color: $purple;
+        font-size: 2.8rem;
+        margin: 5px 0 7px 0;
+        display: inline-block;
+     }
+
+
+     .btns__social-network{
+        margin-top: 25px;
+
+        @include mediaQuery(s){
+           text-align: center;
+        }
+     }
+
+     .btns__social-network .btn{
+        padding: 15px 30px;
+        background-color: transparent;
+        border: 3px solid $purple;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        color: $white;
+        text-decoration: none;
+        font-size: 1rem;
+        display: inline-block;
+
+        
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background-color: $purple;
+            border-radius: 0 0 50% 50%;
+            z-index: -1;
+            transition:  all 0.5s;
+            
+        }
+
+        &:hover::before{
+           height: 190%;
+        }
+
+
+
+
+
+     }
+
+     .btns__social-network .btn + .btn{
+        margin-left: 15px;
+     }
+
+
+     .profile__picture{
+        width: 300px;
+        height: 300px;
+        background-color: $dark;
+        border-radius: 50%;
+        background-image: url('../assets/profile.jpeg');
+        background-size: cover;
+        transition: all 0.5s;
+        animation: animation 3s forwards infinite;
+
+     }
+}
+
+
+@keyframes animation{
+    0%{
+        transform: scale(1);
+    }
+    20% {
+       transform: scale(1.1);
+    }
+
+    40%{
+        transform: scale(1);
+    }
+
+    60%{
+        transform: scale(1.1);
+    }
+
+
+    100%{
+        transform: scale(1);
+    }
+
+}

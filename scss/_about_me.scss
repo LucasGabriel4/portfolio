@@ -1,0 +1,32 @@
+section.about__me{
+    padding: 60px 10px;
+    background-color: $dark;
+    @include fontPoppins;
+    text-align: center;
+    h1{
+        font-size: 1.9rem;
+        text-align: center;
+        font-weight: 700;
+        color: $white;
+    }
+
+    p{
+        display: inline-block;
+        color: $white;
+        margin-top: 40px;
+        max-width: 700px;
+        line-height: 2rem;
+        @include mediaQuery(s){
+            font-size: 0.875rem;
+        }
+         span{
+            color: $purple;
+            font-size: 1.25rem;
+            font-weight: 500;
+
+            @include mediaQuery(s){
+                font-size: 1rem;
+            }
+        }
+    }
+}
