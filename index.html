@@ -4,51 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/dev-icon.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script>document.documentElement.className += ' js';</script>
     <link href="css/style.css" rel="stylesheet"/>
-    <title>Portfolio</title>
+    <title>Portfolio | LucasGabriel</title>
 </head>
 <body>
    <header>
        <div class="container">
           <div class="logo">Lucas</div>
 
-          <nav class="menu-desktop">
+          <nav class="menu-desktop"  data-scrollTo>
              <ul>
-                <li><a href="">Sobre</a></li>
-                <li><a href="">Habilidades</a></li>
-                <li><a href="">Projetos</a></li> 
-                <li><a href="">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li> 
+                <li><a href="#contato">Contato</a></li>
              </ul>
           </nav><!--menu-desktop-->
          
 
           
 
-          <nav class="menu-mobile">
+          <nav class="menu-mobile" data-scrollTo>
             <button id="mobile">
                <span class="line"></span>
                <span class="line"></span>
                <span class="line"></span>
              </button><!--mobile-->
                <ul class="hide" id="menu__mobile">
-                <li><a href="">
-                  <span>Sobre</span>
-                  <span>Sobre</span>
-                </a></li>
-                <li><a href="">
-                  <span>Habilidades</span>
-                  <span>Habilidades</span>
-               </a></li>
-                <li><a href="">
-                  <span>Projetos</span>
-                  <span>Projetos</span>
-               </a></li> 
-                <li><a href="">
-                  <span>Contato</span>
-                  <span>Contato</span>
-               </a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li> 
+                <li><a href="#contato">Contato</a></li>
                </ul>
           </nav>
        
@@ -56,12 +46,14 @@
    </header>
 
 
-   <section class="banner">
-      <div class="container">
-        <div class="banner__content">
-            <h1>Olá, eu sou o<br>
-             <span>Lucas Gabriel.</span><br>
-             Desenvolvedor Front-End</h1>
+   <section data-js="scroll" class="banner">
+      <div  class="container">
+        <div class="banner__content active">
+            <div class="title-banner" data-js="title-banner">
+              <h1>Olá, eu sou o</h1>
+             <span>Lucas Gabriel</span>
+              <p>Desenvolvedor Front-End</p>
+            </div>
           <div class="btns__social-network" >
               <a class="btn" href="https://www.linkedin.com/in/lucas-gabriel-7b0760219/" target="_blank">Linkedin</a>
              <a class="btn" href="https://github.com/LucasGabriel4" target="_blank">GitHub</a>
@@ -75,14 +67,15 @@
 
 
 
-   <section class="about__me">
+   <section data-js="scroll" class="about__me" id="sobre">
       <h1>Sobre mim</h1>
-      <p>Olá, meu nome é Lucas tenho 21 anos e sou um Desenvolvedor Front-End com habilidades em <span>HTML</span>, <span>CSS</span>, <span>JavaScript</span>, <span>jQuery</span>, <span>Sass</span> e <span>Git</span>. Apesar de não ter experiência profissional na área, sou uma pessoa organizada, proativa,
+      <p>Olá, meu nome é Lucas tenho 21 anos e sou um Desenvolvedor Front-End com habilidades em <span>HTML</span>, <span>CSS</span>,
+       <span>JavaScript</span>, <span>React</span>  Apesar de não ter experiência profissional na área, sou uma pessoa organizada, proativa,
         esforçada e dedicada a desenvolver soluções criativas e eficientes para os usuários. Estou animado para trabalhar em projetos desafiadores e aprender com a equipe de profissionais experientes, para expandir meu conhecimento e contribuir para o sucesso dos projetos. Estou aberto a novas oportunidades e desafios para crescer como profissional na área de desenvolvimento front-end.</p>
    </section><!--about__me-->
 
 
-   <section class="skills">
+   <section data-js="scroll" class="skills" id="habilidades">
       <h1>Habilidades</h1>
       <div class="container">
           <div class="skills__single">
@@ -101,81 +94,142 @@
           </div><!--skills__single-->
 
           <div class="skills__single">
-            <h2>jQuery</h2>
-            <i class="devicon-jquery-plain-wordmark"></i>
+            <h2>React</h2>
+            <i class="devicon-react-original"></i>
           </div><!--skills__single-->
 
-          <div class="skills__single">
-            <h2>Sass</h2>
-            <i class="devicon-sass-original"></i>
-          </div><!--skills__single-->
-
-          <div class="skills__single">
-            <h2>Git</h2>
-            <i class="devicon-git-plain"></i>
-          </div><!--skills__single-->
       </div><!--container-->
    </section>
 
 
-   <section class="projects">
+   <section data-js="scroll" class="projects" id="projetos">
        <h1>Projetos</h1>
        <div class="container">
            <div class="card projeto01">
             
               <div class="card__body">
                   <h2>Rocket <span>NFTs</span></h2>
-                  <button>Ver mais</button>
+                  <div class="link__project">
+                  <a href="https://rocketnftswebsite.netlify.app" target="_blank">Projeto</a>
+                  <a href="https://github.com/LucasGabriel4/Rocket-NFTS" target="_blank">Github</a>
+                   </div>
               </div><!--card__body-->
            </div><!--card-->
 
            <div class="card projeto02">
                <div class="card__body">
                   <h2>Filme via <span>Torrents</span></h2>
-                  <button>Ver mais</button>
+                  <div class="link__project">
+                    <a href="https://filmestorrent.netlify.app" target="_blank">Projeto</a>
+                    <a href="https://github.com/LucasGabriel4/filmes_torrent_clone" target="_blank">Github</a>
+                   </div>
             </div><!--card__body-->
            </div><!--card-->
 
            <div class="card projeto03">
                <div class="card__body">
                      <h2>You<span>Tube</span></h2>
-                     <button>Ver mais</button>
+                     <div class="link__project">
+                        <a href="https://cloneyoutub.netlify.app" target="_blank">Projeto</a>
+                        <a href="https://github.com/LucasGabriel4/youtube-clone" target="_blank">Github</a>
+                      </div>
                </div><!--card__body-->
            </div><!--card-->
 
            <div class="card projeto04">
                <div class="card__body">
                   <h2>Rick And Morty <span>API</span></h2>
-                  <button>Ver mais</button>
+                  <div class="link__project">
+                     <a href="https://rickandmortyapifetch.netlify.app" target="_blank">Projeto</a>
+                     <a href="https://github.com/LucasGabriel4/Rick_And_morty-Api" target="_blank">Github</a>
+                   </div>
                </div><!--card__body-->
            </div><!--card-->
+
 
            <div class="card projeto05">
                <div class="card__body">
-                  <h2>Animais <span>Fantásticos</span></h2>
-                  <button>Ver mais</button>
+                  <h2>Todo<span>List</span></h2>
+                <div class="link__project">
+                  <a href="https://todolist-reactt.netlify.app" target="_blank">Projeto</a>
+                  <a href="https://github.com/LucasGabriel4/TodoList" target="_blank">Github</a>
+                </div>
                </div><!--card__body-->
            </div><!--card-->
 
+
            <div class="card projeto06">
-               <div class="card__body">
-                  <h2>Wild<span>beast</span></h2>
-                  <button>Ver mais</button>
-               </div><!--card__body-->
-           </div><!--card-->
+            <div class="card__body">
+               <h2>Wild<span>Beast</span></h2>
+               <div class="link__project">
+                 <a href="https://gridwildbeast.netlify.app" target="_blank">Projeto</a>
+                 <a href="https://github.com/LucasGabriel4/Wildbeast" target="_blank">Github</a>
+                </div>
+            </div><!--card__body-->
+         </div><!--card-->
+
+         <div class="card projeto07">
+            <div class="card__body">
+               <h2>Weather <span>App</span></h2>
+               <div class="link__project">
+                 <a href="https://climatedataapp.netlify.app" target="_blank">Projeto</a>
+                 <a href="https://github.com/LucasGabriel4/weatherApp" target="_blank">Github</a>
+                </div>
+            </div><!--card__body-->
+         </div><!--card-->
+
+
+         <div class="card projeto08">
+            <div class="card__body">
+               <h2>Animes <span>LandingPage</span></h2>
+               <div class="link__project">
+                 <a href="https://animeslandingpage.netlify.app" target="_blank">Projeto</a>
+                 <a href="https://github.com/LucasGabriel4/animes_landingPage" target="_blank">Github</a>
+                </div>
+            </div><!--card__body-->
+         </div><!--card-->
+
+     
+        </div><!--card-->  
+   
 
            
        </div><!--container-->
 
-       <div class="modal__wrapper hide">
-         <div class="modal">
-
-         </div><!--modal-->
-       </div><!--modal__wrapper-->
+     
    </section>
+
+   <section data-js="scroll" class="contact" id="contato">
+      <h1>Contato</h1>
+      <div class="container">
+        <div class="icon">
+           <a href="mailto:bielsykes2016@gmail.com" target="_blank"><i class="ph ph-envelope"></i></a>
+           <a href="mailto:bielsykes2016@gmail.com" target="_blank">E-mail</a>
+        </div>
+
+        <div class="icon">
+         <a href="https://api.whatsapp.com/send?phone=5519996168168" target="_blank"><i class="ph ph-phone"></i></a>
+         <a href="" target="_blank">Telefone</a>
+      </div>
+
+      <div class="icon">
+         <a href="https://www.linkedin.com/in/lucas-gabriel-7b0760219/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+         <a href="https://www.linkedin.com/in/lucas-gabriel-7b0760219/" target="_blank">Linkedin</a>
+      </div>
+
+      </div><!--container-->
+
+        
+         <div class="scrollTop">
+            <button data-js="ScrollTopBtn"><i class="ph ph-arrow-up"></i></button>
+         </div>
+   </section>
+
+ 
+   
     
 
-   
+   <script src="https://unpkg.com/@phosphor-icons/web"></script>
    <script type="module" src="js/script.js"></script>
 </body>
 </html>

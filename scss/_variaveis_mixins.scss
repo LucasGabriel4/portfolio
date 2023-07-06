@@ -6,7 +6,7 @@ $s-device: 480px;
 $purple: #8257E6;
 $dark: #110F17;
 $white: white;
-$projetos: projeto01 projeto02 projeto03 projeto04 projeto05 projeto06;
+$projetos: projeto01 projeto02 projeto03 projeto04 projeto05 projeto06 projeto07 projeto08;
 $modal: #13131F;
 
 
@@ -52,3 +52,66 @@ $modal: #13131F;
   }
 
 
+  body{
+    background-color: $dark;
+  }
+
+
+  .js [data-js="scroll"]{
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all .3s;
+  }
+
+  .js [data-js="scroll"].active{
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+
+  .scrollTop{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 40px;
+    top: 60px;
+  }
+
+
+  .scrollTop button{
+    width: 50px;
+    height: 50px; 
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: $purple;
+    animation: scaleAnimation 1.9s infinite;
+  }
+
+  .scrollTop button > i{
+    font-size: 1.25rem;
+    vertical-align: middle;
+    color: $white;
+  }
+
+  @keyframes scaleAnimation{
+    0%{
+      transform: scale(1);
+    }
+
+    20%{
+      transform: scale(1.2);
+    }
+
+    50%{
+      transform: scale(.9);
+    }
+
+    80%{
+      transform: scale(1.2);
+    }
+
+    100%{
+      transform: scale(1);
+    }
+  }

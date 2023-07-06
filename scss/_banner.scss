@@ -32,8 +32,10 @@ section.banner{
        color: $white;
        font-weight: 500;
        font-size: 1.7rem;
+       font-weight: 500;
        @include mediaQuery(s){
           text-align: center;
+          font-size: 1.5rem;
        }
     }
 
@@ -41,7 +43,21 @@ section.banner{
         color: $purple;
         font-size: 2.8rem;
         margin: 5px 0 7px 0;
-        display: inline-block;
+        display: block;
+        font-weight: 500;
+        @include mediaQuery(s){
+            text-align: center;
+         }
+     }
+
+     .banner__content p{
+        color: $white;
+        font-size: 2rem;
+        font-weight: 500;
+        @include mediaQuery(s){
+            text-align: center;
+            font-size: 1.5rem;
+         }
      }
 
 

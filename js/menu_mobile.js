@@ -3,12 +3,18 @@
    const menu = document.getElementById('menu__mobile')
    const body = document.body;
 
-   console.log(menu)
+   
    btnMobile.addEventListener('click', showMenuMobile)
+
+   menu.addEventListener('click', (event) => {
+        menu.classList.add('hide')
+        btnMobile.classList.remove('active')
+        body.style.overflowY = 'initial'
+   })
 
 
    function showMenuMobile(event){
-       this.classList.toggle('active')
+       btnMobile.classList.toggle('active')
        
        if (menu.classList.contains('hide')){
           menu.classList.add('show')
