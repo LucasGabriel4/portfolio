@@ -67,6 +67,12 @@
   background-position: center;
 }
 
+.projeto09 {
+  background-image: url("../assets/projeto09.png");
+  background-size: cover;
+  background-position: center;
+}
+
 /* line 55, ../../portfolio profissional/scss/_variaveis_mixins.scss */
 body {
   background-color: #110F17;
