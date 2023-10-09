@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 32, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 37, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -11,87 +11,102 @@
   padding-left: 10px;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto01 {
   background-image: url("../assets/projeto01.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto02 {
   background-image: url("../assets/projeto02.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto03 {
   background-image: url("../assets/projeto03.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto04 {
   background-image: url("../assets/projeto04.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto05 {
   background-image: url("../assets/projeto05.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto06 {
   background-image: url("../assets/projeto06.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto07 {
   background-image: url("../assets/projeto07.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto08 {
   background-image: url("../assets/projeto08.png");
   background-size: cover;
   background-position: center;
 }
 
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto09 {
   background-image: url("../assets/projeto09.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 55, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto10 {
+  background-image: url("../assets/projeto10.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto11 {
+  background-image: url("../assets/projeto11.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 60, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 body {
   background-color: #110F17;
 }
 
-/* line 60, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 65, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"] {
   opacity: 0;
   transform: translateX(-30px);
   transition: all .3s;
 }
 
-/* line 66, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 71, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"].active {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* line 72, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 77, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop {
   display: flex;
   justify-content: end;
@@ -100,7 +115,7 @@ body {
   top: 60px;
 }
 
-/* line 81, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 86, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button {
   width: 50px;
   height: 50px;
@@ -111,7 +126,7 @@ body {
   animation: scaleAnimation 1.9s infinite;
 }
 
-/* line 91, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 96, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button > i {
   font-size: 1.25rem;
   vertical-align: middle;
@@ -136,35 +151,35 @@ body {
   }
 }
 
-/* line 8, ../../portfolio profissional/scss/_reset.scss */
+/* line 8, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 16, ../../portfolio profissional/scss/_reset.scss */
+/* line 16, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* line 20, ../../portfolio profissional/scss/_reset.scss */
+/* line 20, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 ::-webkit-scrollbar-track {
   background-color: #110F17;
 }
 
-/* line 24, ../../portfolio profissional/scss/_reset.scss */
+/* line 24, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 ::-webkit-scrollbar-thumb {
   background-color: #8257E6;
   border-radius: 15px;
 }
 
-/* line 33, ../../portfolio profissional/scss/_reset.scss */
+/* line 33, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 img {
   max-width: 100%;
   display: block;
 }
 
-/* line 38, ../../portfolio profissional/scss/_reset.scss */
+/* line 38, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -187,41 +202,41 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-/* line 60, ../../portfolio profissional/scss/_reset.scss */
+/* line 60, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 64, ../../portfolio profissional/scss/_reset.scss */
+/* line 64, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 body {
   line-height: 1;
 }
 
-/* line 67, ../../portfolio profissional/scss/_reset.scss */
+/* line 67, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 70, ../../portfolio profissional/scss/_reset.scss */
+/* line 70, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 73, ../../portfolio profissional/scss/_reset.scss */
+/* line 73, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 78, ../../portfolio profissional/scss/_reset.scss */
+/* line 78, ../../../OneDrive/Documentos/portfolio profissional/scss/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 32, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 37, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -230,81 +245,102 @@ table {
   padding-left: 10px;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto01 {
   background-image: url("../assets/projeto01.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto02 {
   background-image: url("../assets/projeto02.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto03 {
   background-image: url("../assets/projeto03.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto04 {
   background-image: url("../assets/projeto04.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto05 {
   background-image: url("../assets/projeto05.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto06 {
   background-image: url("../assets/projeto06.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto07 {
   background-image: url("../assets/projeto07.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 44, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto08 {
   background-image: url("../assets/projeto08.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 55, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto09 {
+  background-image: url("../assets/projeto09.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto10 {
+  background-image: url("../assets/projeto10.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 49, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto11 {
+  background-image: url("../assets/projeto11.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 60, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 body {
   background-color: #110F17;
 }
 
-/* line 60, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 65, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"] {
   opacity: 0;
   transform: translateX(-30px);
   transition: all .3s;
 }
 
-/* line 66, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 71, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"].active {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* line 72, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 77, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop {
   display: flex;
   justify-content: end;
@@ -313,7 +349,7 @@ body {
   top: 60px;
 }
 
-/* line 81, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 86, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button {
   width: 50px;
   height: 50px;
@@ -324,7 +360,7 @@ body {
   animation: scaleAnimation 1.9s infinite;
 }
 
-/* line 91, ../../portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 96, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button > i {
   font-size: 1.25rem;
   vertical-align: middle;
@@ -349,7 +385,7 @@ body {
   }
 }
 
-/* line 1, ../../portfolio profissional/scss/_header.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header {
   font-family: 'Poppins', sans-serif;
   padding: 30px 0;
@@ -360,27 +396,27 @@ header {
   z-index: 2;
 }
 
-/* line 10, ../../portfolio profissional/scss/_header.scss */
+/* line 10, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header .container {
   justify-content: space-between;
   align-items: center;
 }
 
 @media screen and (min-width: 760px) and (max-width: 980px) {
-  /* line 10, ../../portfolio profissional/scss/_header.scss */
+  /* line 10, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
   header .container {
     max-width: 760px;
   }
 }
 
-/* line 18, ../../portfolio profissional/scss/_header.scss */
+/* line 18, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header .logo {
   color: white;
   font-weight: 700;
   font-size: 1.4375rem;
 }
 
-/* line 24, ../../portfolio profissional/scss/_header.scss */
+/* line 24, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header .logo::after {
   content: '/>';
   font-weight: 700;
@@ -388,7 +424,7 @@ header .logo::after {
   font-size: 1.4375rem;
 }
 
-/* line 31, ../../portfolio profissional/scss/_header.scss */
+/* line 31, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header .logo::before {
   content: '<Dev.';
   font-weight: 700;
@@ -397,37 +433,37 @@ header .logo::before {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 39, ../../portfolio profissional/scss/_header.scss */
+  /* line 39, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
   header nav.menu-desktop {
     display: none;
   }
 }
 
-/* line 50, ../../portfolio profissional/scss/_header.scss */
+/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul {
   position: relative;
   top: 5px;
   float: right;
 }
 
-/* line 57, ../../portfolio profissional/scss/_header.scss */
+/* line 57, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li {
   display: inline-block;
 }
 
-/* line 62, ../../portfolio profissional/scss/_header.scss */
+/* line 62, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li + li {
   margin-left: 20px;
 }
 
-/* line 67, ../../portfolio profissional/scss/_header.scss */
+/* line 67, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li a {
   color: white;
   text-decoration: none;
   position: relative;
 }
 
-/* line 72, ../../portfolio profissional/scss/_header.scss */
+/* line 72, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li a::before {
   content: '';
   width: 0;
@@ -439,7 +475,7 @@ header nav.menu-desktop ul li a::before {
   transition: all 0.5s;
 }
 
-/* line 83, ../../portfolio profissional/scss/_header.scss */
+/* line 83, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li a::after {
   content: '';
   width: 0;
@@ -451,19 +487,19 @@ header nav.menu-desktop ul li a::after {
   transition: all 0.5s;
 }
 
-/* line 94, ../../portfolio profissional/scss/_header.scss */
+/* line 94, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li a:hover::before {
   width: 50%;
   transform: translateX(100%);
 }
 
-/* line 99, ../../portfolio profissional/scss/_header.scss */
+/* line 99, ../../../OneDrive/Documentos/portfolio profissional/scss/_header.scss */
 header nav.menu-desktop ul li a:hover::after {
   width: 50%;
   transform: translateX(-100%);
 }
 
-/* line 1, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 #mobile {
   display: none;
   width: 40px;
@@ -474,13 +510,13 @@ header nav.menu-desktop ul li a:hover::after {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 1, ../../portfolio profissional/scss/_menu_mobile.scss */
+  /* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
   #mobile {
     display: block;
   }
 }
 
-/* line 13, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 13, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 #mobile .line {
   width: 25px;
   height: 3px;
@@ -492,27 +528,27 @@ header nav.menu-desktop ul li a:hover::after {
   transform-origin: center;
 }
 
-/* line 24, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 24, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 #mobile.active .line:nth-child(1) {
   transform: translateY(7px) rotate(-40deg);
 }
 
-/* line 28, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 28, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 #mobile.active .line:nth-child(3) {
   transform: translateY(-9px) rotate(40deg);
 }
 
-/* line 32, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 32, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 #mobile.active .line:nth-child(2) {
   background-color: transparent;
 }
 
-/* line 39, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 39, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 nav.menu-mobile {
   display: none;
 }
 
-/* line 42, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 42, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 nav.menu-mobile ul {
   position: absolute;
   top: 90px;
@@ -523,13 +559,13 @@ nav.menu-mobile ul {
   padding: 90px 0 0 0;
 }
 
-/* line 53, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 53, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 nav.menu-mobile ul li {
   text-align: center;
   margin-top: 30px;
 }
 
-/* line 60, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 60, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 nav.menu-mobile ul li a {
   position: relative;
   width: 100%;
@@ -544,24 +580,24 @@ nav.menu-mobile ul li a {
   font-weight: 700;
 }
 
-/* line 73, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 73, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 nav.menu-mobile ul li a:hover {
   color: #8257E6;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 39, ../../portfolio profissional/scss/_menu_mobile.scss */
+  /* line 39, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
   nav.menu-mobile {
     display: block;
   }
 }
 
-/* line 87, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 87, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 .hide {
   display: none;
 }
 
-/* line 92, ../../portfolio profissional/scss/_menu_mobile.scss */
+/* line 92, ../../../OneDrive/Documentos/portfolio profissional/scss/_menu_mobile.scss */
 .show {
   animation: showMenu .5s forwards;
 }
@@ -577,14 +613,14 @@ nav.menu-mobile ul li a:hover {
   }
 }
 
-/* line 1, ../../portfolio profissional/scss/_banner.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner {
   padding: 60px 0;
   background-color: #110F17;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6, ../../portfolio profissional/scss/_banner.scss */
+/* line 6, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .container {
   max-width: 960px;
   justify-content: space-between;
@@ -593,7 +629,7 @@ section.banner .container {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 6, ../../portfolio profissional/scss/_banner.scss */
+  /* line 6, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .container {
     flex-direction: column-reverse;
     max-width: 480px;
@@ -601,20 +637,20 @@ section.banner .container {
 }
 
 @media screen and (min-width: 760px) and (max-width: 980px) {
-  /* line 6, ../../portfolio profissional/scss/_banner.scss */
+  /* line 6, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .container {
     max-width: 760px;
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 24, ../../portfolio profissional/scss/_banner.scss */
+  /* line 24, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .banner__content {
     margin-top: 50px;
   }
 }
 
-/* line 31, ../../portfolio profissional/scss/_banner.scss */
+/* line 31, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .banner__content h1 {
   color: white;
   font-weight: 500;
@@ -623,14 +659,14 @@ section.banner .banner__content h1 {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 31, ../../portfolio profissional/scss/_banner.scss */
+  /* line 31, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .banner__content h1 {
     text-align: center;
     font-size: 1.5rem;
   }
 }
 
-/* line 42, ../../portfolio profissional/scss/_banner.scss */
+/* line 42, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .banner__content span {
   color: #8257E6;
   font-size: 2.8rem;
@@ -640,13 +676,13 @@ section.banner .banner__content span {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 42, ../../portfolio profissional/scss/_banner.scss */
+  /* line 42, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .banner__content span {
     text-align: center;
   }
 }
 
-/* line 53, ../../portfolio profissional/scss/_banner.scss */
+/* line 53, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .banner__content p {
   color: white;
   font-size: 2rem;
@@ -654,26 +690,26 @@ section.banner .banner__content p {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 53, ../../portfolio profissional/scss/_banner.scss */
+  /* line 53, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .banner__content p {
     text-align: center;
     font-size: 1.5rem;
   }
 }
 
-/* line 64, ../../portfolio profissional/scss/_banner.scss */
+/* line 64, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .btns__social-network {
   margin-top: 25px;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 64, ../../portfolio profissional/scss/_banner.scss */
+  /* line 64, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
   section.banner .btns__social-network {
     text-align: center;
   }
 }
 
-/* line 72, ../../portfolio profissional/scss/_banner.scss */
+/* line 72, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .btns__social-network .btn {
   padding: 15px 30px;
   background-color: transparent;
@@ -688,7 +724,7 @@ section.banner .btns__social-network .btn {
   display: inline-block;
 }
 
-/* line 86, ../../portfolio profissional/scss/_banner.scss */
+/* line 86, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .btns__social-network .btn::before {
   content: '';
   position: absolute;
@@ -702,17 +738,17 @@ section.banner .btns__social-network .btn::before {
   transition: all 0.5s;
 }
 
-/* line 100, ../../portfolio profissional/scss/_banner.scss */
+/* line 100, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .btns__social-network .btn:hover::before {
   height: 190%;
 }
 
-/* line 110, ../../portfolio profissional/scss/_banner.scss */
+/* line 110, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .btns__social-network .btn + .btn {
   margin-left: 15px;
 }
 
-/* line 115, ../../portfolio profissional/scss/_banner.scss */
+/* line 115, ../../../OneDrive/Documentos/portfolio profissional/scss/_banner.scss */
 section.banner .profile__picture {
   width: 300px;
   height: 300px;
@@ -742,7 +778,7 @@ section.banner .profile__picture {
   }
 }
 
-/* line 1, ../../portfolio profissional/scss/_about_me.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_about_me.scss */
 section.about__me {
   padding: 60px 10px;
   background-color: #110F17;
@@ -750,7 +786,7 @@ section.about__me {
   text-align: center;
 }
 
-/* line 6, ../../portfolio profissional/scss/_about_me.scss */
+/* line 6, ../../../OneDrive/Documentos/portfolio profissional/scss/_about_me.scss */
 section.about__me h1 {
   font-size: 1.9rem;
   text-align: center;
@@ -758,7 +794,7 @@ section.about__me h1 {
   color: white;
 }
 
-/* line 13, ../../portfolio profissional/scss/_about_me.scss */
+/* line 13, ../../../OneDrive/Documentos/portfolio profissional/scss/_about_me.scss */
 section.about__me p {
   display: inline-block;
   color: white;
@@ -768,13 +804,13 @@ section.about__me p {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 13, ../../portfolio profissional/scss/_about_me.scss */
+  /* line 13, ../../../OneDrive/Documentos/portfolio profissional/scss/_about_me.scss */
   section.about__me p {
     font-size: 0.875rem;
   }
 }
 
-/* line 22, ../../portfolio profissional/scss/_about_me.scss */
+/* line 22, ../../../OneDrive/Documentos/portfolio profissional/scss/_about_me.scss */
 section.about__me p span {
   color: #8257E6;
   font-size: 1.25rem;
@@ -782,27 +818,27 @@ section.about__me p span {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 22, ../../portfolio profissional/scss/_about_me.scss */
+  /* line 22, ../../../OneDrive/Documentos/portfolio profissional/scss/_about_me.scss */
   section.about__me p span {
     font-size: 1rem;
   }
 }
 
-/* line 1, ../../portfolio profissional/scss/_skills.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills {
   padding: 60px 0;
   background-color: #110F17;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 6, ../../portfolio profissional/scss/_skills.scss */
+/* line 6, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills .container {
   justify-content: center;
   margin: 50px auto;
   flex-wrap: wrap;
 }
 
-/* line 12, ../../portfolio profissional/scss/_skills.scss */
+/* line 12, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills h1 {
   color: white;
   font-weight: 700;
@@ -810,7 +846,7 @@ section.skills h1 {
   text-align: center;
 }
 
-/* line 19, ../../portfolio profissional/scss/_skills.scss */
+/* line 19, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills .skills__single {
   width: 120px;
   height: 120px;
@@ -822,12 +858,12 @@ section.skills .skills__single {
   transition: all .5s;
 }
 
-/* line 28, ../../portfolio profissional/scss/_skills.scss */
+/* line 28, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills .skills__single:hover {
   transform: scale(1.2);
 }
 
-/* line 32, ../../portfolio profissional/scss/_skills.scss */
+/* line 32, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills .skills__single h2 {
   text-align: center;
   margin-top: 10px;
@@ -835,7 +871,7 @@ section.skills .skills__single h2 {
   color: white;
 }
 
-/* line 40, ../../portfolio profissional/scss/_skills.scss */
+/* line 40, ../../../OneDrive/Documentos/portfolio profissional/scss/_skills.scss */
 section.skills .skills__single i {
   color: #8257E6;
   font-size: 3.75rem;
@@ -844,7 +880,7 @@ section.skills .skills__single i {
   margin-top: 10px;
 }
 
-/* line 1, ../../portfolio profissional/scss/_projects.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects {
   width: 100%;
   padding: 60px 0;
@@ -853,7 +889,7 @@ section.projects {
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 9, ../../portfolio profissional/scss/_projects.scss */
+/* line 9, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects h1 {
   color: white;
   text-align: center;
@@ -861,7 +897,7 @@ section.projects h1 {
   font-size: 1.9rem;
 }
 
-/* line 17, ../../portfolio profissional/scss/_projects.scss */
+/* line 17, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .container {
   gap: 80px 40px;
   margin: 60px auto;
@@ -870,13 +906,13 @@ section.projects .container {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 17, ../../portfolio profissional/scss/_projects.scss */
+  /* line 17, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
   section.projects .container {
     max-width: 480px;
   }
 }
 
-/* line 28, ../../portfolio profissional/scss/_projects.scss */
+/* line 28, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card {
   width: 100%;
   max-width: calc(400px - 40px);
@@ -888,27 +924,27 @@ section.projects .card {
   transition: all .3s;
 }
 
-/* line 37, ../../portfolio profissional/scss/_projects.scss */
+/* line 37, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card:hover {
   transform: scale(1.2);
 }
 
 @media screen and (max-width: 759px) {
-  /* line 37, ../../portfolio profissional/scss/_projects.scss */
+  /* line 37, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
   section.projects .card:hover {
     transform: scale(1);
   }
 }
 
 @media screen and (max-width: 759px) {
-  /* line 28, ../../portfolio profissional/scss/_projects.scss */
+  /* line 28, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
   section.projects .card {
     max-width: 350px;
     height: 220px;
   }
 }
 
-/* line 54, ../../portfolio profissional/scss/_projects.scss */
+/* line 54, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card__body {
   position: absolute;
   top: 0;
@@ -925,13 +961,13 @@ section.projects .card__body {
   align-items: center;
 }
 
-/* line 69, ../../portfolio profissional/scss/_projects.scss */
+/* line 69, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card__body span {
   color: #8257E6;
   font-size: 23px;
 }
 
-/* line 74, ../../portfolio profissional/scss/_projects.scss */
+/* line 74, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card__body h2 {
   color: white;
   font-size: 20px;
@@ -940,7 +976,7 @@ section.projects .card__body h2 {
   margin-bottom: 20px;
 }
 
-/* line 82, ../../portfolio profissional/scss/_projects.scss */
+/* line 82, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card__body a {
   padding: 15px 25px;
   background-color: transparent;
@@ -955,7 +991,7 @@ section.projects .card__body a {
   display: inline-block;
 }
 
-/* line 96, ../../portfolio profissional/scss/_projects.scss */
+/* line 96, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card__body a::before {
   content: '';
   position: absolute;
@@ -969,59 +1005,59 @@ section.projects .card__body a::before {
   transition: all 0.5s;
 }
 
-/* line 110, ../../portfolio profissional/scss/_projects.scss */
+/* line 110, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card__body a:hover::before {
   height: 190%;
 }
 
-/* line 121, ../../portfolio profissional/scss/_projects.scss */
+/* line 121, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .link__project {
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
-/* line 127, ../../portfolio profissional/scss/_projects.scss */
+/* line 127, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .card:hover .card__body {
   right: 0;
 }
 
-/* line 134, ../../portfolio profissional/scss/_projects.scss */
+/* line 134, ../../../OneDrive/Documentos/portfolio profissional/scss/_projects.scss */
 section.projects .hide {
   display: none;
 }
 
-/* line 1, ../../portfolio profissional/scss/_contact.scss */
+/* line 1, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact {
   padding: 100px 0;
   background-color: #110F17;
   font-family: 'Poppins', sans-serif;
 }
 
-/* line 8, ../../portfolio profissional/scss/_contact.scss */
+/* line 8, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .icon {
   transition: all .3s;
 }
 
-/* line 11, ../../portfolio profissional/scss/_contact.scss */
+/* line 11, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .icon:hover {
   transform: scale(1.2);
 }
 
-/* line 15, ../../portfolio profissional/scss/_contact.scss */
+/* line 15, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .icon a {
   display: block;
   text-decoration: none;
   text-align: center;
 }
 
-/* line 21, ../../portfolio profissional/scss/_contact.scss */
+/* line 21, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .icon i {
   color: white;
   font-size: 2rem;
 }
 
-/* line 26, ../../portfolio profissional/scss/_contact.scss */
+/* line 26, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .icon a:nth-child(1) {
   background-color: #8257E6;
   padding: 20px 20px;
@@ -1029,19 +1065,19 @@ section.contact .icon a:nth-child(1) {
 }
 
 @media screen and (max-width: 759px) {
-  /* line 26, ../../portfolio profissional/scss/_contact.scss */
+  /* line 26, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
   section.contact .icon a:nth-child(1) {
     padding: 15px 15px;
   }
 }
 
-/* line 35, ../../portfolio profissional/scss/_contact.scss */
+/* line 35, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .icon a:nth-child(2) {
   margin-top: 30px;
   color: white;
 }
 
-/* line 42, ../../portfolio profissional/scss/_contact.scss */
+/* line 42, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact h1 {
   text-align: center;
   color: white;
@@ -1050,14 +1086,14 @@ section.contact h1 {
   margin-bottom: 50px;
 }
 
-/* line 50, ../../portfolio profissional/scss/_contact.scss */
+/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
 section.contact .container {
   justify-content: center;
   gap: 80px;
 }
 
 @media screen and (max-width: 759px) {
-  /* line 50, ../../portfolio profissional/scss/_contact.scss */
+  /* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_contact.scss */
   section.contact .container {
     gap: 50px;
   }
