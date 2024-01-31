@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 38, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 39, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -11,109 +11,123 @@
   padding-left: 10px;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto01 {
   background-image: url("../assets/projeto01.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto02 {
   background-image: url("../assets/projeto02.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto03 {
   background-image: url("../assets/projeto03.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto04 {
   background-image: url("../assets/projeto04.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto05 {
   background-image: url("../assets/projeto05.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto06 {
   background-image: url("../assets/projeto06.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto07 {
   background-image: url("../assets/projeto07.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto08 {
   background-image: url("../assets/projeto08.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto09 {
   background-image: url("../assets/projeto09.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto10 {
   background-image: url("../assets/projeto10.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto11 {
   background-image: url("../assets/projeto11.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto12 {
   background-image: url("../assets/projeto12.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 61, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto13 {
+  background-image: url("../assets/projeto13.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto14 {
+  background-image: url("../assets/projeto14.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 62, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 body {
   background-color: #110F17;
 }
 
-/* line 66, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 67, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"] {
   opacity: 0;
   transform: translateX(-30px);
   transition: all .3s;
 }
 
-/* line 72, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 73, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"].active {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* line 78, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 79, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop {
   display: flex;
   justify-content: end;
@@ -122,7 +136,7 @@ body {
   top: 60px;
 }
 
-/* line 87, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 88, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button {
   width: 50px;
   height: 50px;
@@ -133,7 +147,7 @@ body {
   animation: scaleAnimation 1.9s infinite;
 }
 
-/* line 97, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 98, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button > i {
   font-size: 1.25rem;
   vertical-align: middle;
@@ -243,7 +257,7 @@ table {
   border-spacing: 0;
 }
 
-/* line 38, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 39, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -252,109 +266,123 @@ table {
   padding-left: 10px;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto01 {
   background-image: url("../assets/projeto01.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto02 {
   background-image: url("../assets/projeto02.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto03 {
   background-image: url("../assets/projeto03.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto04 {
   background-image: url("../assets/projeto04.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto05 {
   background-image: url("../assets/projeto05.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto06 {
   background-image: url("../assets/projeto06.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto07 {
   background-image: url("../assets/projeto07.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto08 {
   background-image: url("../assets/projeto08.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto09 {
   background-image: url("../assets/projeto09.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto10 {
   background-image: url("../assets/projeto10.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto11 {
   background-image: url("../assets/projeto11.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 50, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .projeto12 {
   background-image: url("../assets/projeto12.png");
   background-size: cover;
   background-position: center;
 }
 
-/* line 61, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto13 {
+  background-image: url("../assets/projeto13.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 51, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+.projeto14 {
+  background-image: url("../assets/projeto14.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* line 62, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 body {
   background-color: #110F17;
 }
 
-/* line 66, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 67, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"] {
   opacity: 0;
   transform: translateX(-30px);
   transition: all .3s;
 }
 
-/* line 72, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 73, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .js [data-js="scroll"].active {
   opacity: 1;
   transform: translateX(0);
 }
 
-/* line 78, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 79, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop {
   display: flex;
   justify-content: end;
@@ -363,7 +391,7 @@ body {
   top: 60px;
 }
 
-/* line 87, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 88, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button {
   width: 50px;
   height: 50px;
@@ -374,7 +402,7 @@ body {
   animation: scaleAnimation 1.9s infinite;
 }
 
-/* line 97, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
+/* line 98, ../../../OneDrive/Documentos/portfolio profissional/scss/_variaveis_mixins.scss */
 .scrollTop button > i {
   font-size: 1.25rem;
   vertical-align: middle;
